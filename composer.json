@@ -1,0 +1,36 @@
+{
+    "name": "georgringer/news-form-fill",
+    "type": "typo3-cms-extension",
+    "description": "Provide article record to finishers of EXT:form",
+    "keywords": [
+        "TYPO3",
+        "extension",
+        "article",
+        "news"
+    ],
+    "authors": [
+        {
+            "name": "Georg Ringer",
+            "role": "Developer",
+            "homepage": "https://ringer.it"
+        }
+    ],
+    "license": [
+        "GPL-2.0-or-later"
+    ],
+    "require": {
+        "php": ">= 8.2 < 8.4",
+        "georgringer/news": "^10 || ^11 || ^12",
+        "typo3/cms-form": "^12.4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "GeorgRinger\\NewsFormFill\\": "Classes"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "news_form_fill"
+        }
+    }
+}

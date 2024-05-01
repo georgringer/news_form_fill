@@ -1,0 +1,27 @@
+TYPO3:
+  CMS:
+    Form:
+      prototypes:
+        standard:
+          formElementsDefinition:
+            Form:
+              formEditor:
+                editors:
+                  900:
+                    selectOptions:
+                      1714495718:
+                        value: NewsVariableProvider
+                        label: formEditor.elements.Form.finisher.NewsVariableProvider.editor.header.label
+                propertyCollections:
+                  finishers:
+                    1714495718:
+                      identifier: NewsVariableProvider
+                      editors:
+                        100:
+                          identifier: header
+                          templateName: Inspector-CollectionElementHeaderEditor
+                          label: formEditor.elements.Form.finisher.NewsVariableProvider.editor.header.label
+                        9999:
+                          identifier: removeButton
+                          templateName: Inspector-RemoveElementEditor
+

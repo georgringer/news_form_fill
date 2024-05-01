@@ -1,0 +1,11 @@
+// Frontend form configuration
+plugin.tx_form.settings.yamlConfigurations {
+    1714495718 = EXT:news_form_fill/Configuration/Yaml/BaseSetup.yaml
+}
+
+// Backend form configuration
+module.tx_form.settings.yamlConfigurations {
+    1714495718 = EXT:news_form_fill/Configuration/Yaml/BaseSetup.yaml
+    1714495719 = EXT:news_form_fill/Configuration/Yaml/FormEditorSetup.yaml
+}
+

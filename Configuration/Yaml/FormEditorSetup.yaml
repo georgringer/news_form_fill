@@ -1,0 +1,17 @@
+imports:
+
+  - { resource: "./FormElements/Form.yaml" }
+  - { resource: "./Finishers/NewsVariableProvider.yaml" }
+
+TYPO3:
+  CMS:
+    Form:
+      prototypes:
+        standard:
+          formEditor:
+            translationFiles:
+              1714495718: 'EXT:news_form_fill/Resources/Private/Language/Database.xlf'
+
+
+
+

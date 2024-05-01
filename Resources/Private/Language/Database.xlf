@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="EXT:news_form_fill/Resources/Private/Language/Database.xlf" date="2016-08-21T20:15:32Z" product-name="news_form_fill">
+     <header/>
+        <body>
+            <trans-unit id="tt_content.finishersDefinition.NewsVariableProvider.label" resname="tt_content.finishersDefinition.NewsVariableProvider.label" xml:space="preserve">
+                <source>NewsVariableProvider</source>
+            </trans-unit>
+            <trans-unit id="formEditor.elements.Form.finisher.NewsVariableProvider.editor.header.label" resname="formEditor.elements.Form.finisher.NewsVariableProvider.editor.header.label" xml:space="preserve">
+               <source>NewsVariableProvider</source>
+           </trans-unit>
+        </body>
+    </file>
+</xliff>

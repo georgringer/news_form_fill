@@ -1,0 +1,16 @@
+TYPO3:
+  CMS:
+    Form:
+      prototypes:
+        standard:
+          finishersDefinition:
+            EmailToReceiver:
+              options:
+                templateRootPaths:
+                  1714495718: 'EXT:news_form_fill/Resources/Private/Templates/Finishers/Email/'
+            EmailToSender:
+              options:
+                templateRootPaths:
+                  1714495718: 'EXT:news_form_fill/Resources/Private/Templates/Finishers/Email/'
+            NewsVariableProvider:
+              implementationClassName: 'GeorgRinger\NewsFormFill\Domain\Finisher\NewsFormFinisher'
